@@ -1,0 +1,180 @@
+body {
+    margin: 0;
+    min-height: 100vh
+}
+
+.header {
+    height: 65px;
+    background: rgb(1, 14, 22);
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0 70px;
+    flex-shrink: 0;
+}
+
+.logo, .header-links {
+    display: flex;
+    align-items: center;
+}
+
+#logo-image {
+    display: flex;
+    height: 55px;
+    margin: 0;
+    filter: hue-rotate(180deg);
+}
+
+/* #logo-text:hover {
+    
+} */
+
+ul {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    font-weight: 0;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    color: #c7882a;
+}
+
+li {
+ display: flex;
+ margin: 10px;
+ font-size: 18px;
+ /* font-family: "Courier New", monospace; */
+}
+
+.left-side-row1 p, #logo-text:hover{
+    text-shadow: 0 0 2px #0a3d4e, 0 0 4px #0a3d4e, 0 0 8px #0a3d4e, 0 0 12px #0a3d4e;
+    color: white; 
+    /* Glow effect */
+}
+
+#logo-text {
+    font-size: 20px;
+}
+
+.container-row1 {
+    background-image: url('./images/neom-yx7TJle8LhM-unsplash.jpg');
+    background-size: cover; /* Adjust the background size as desired */
+    background-position: center; /* Adjust the background position as desired */
+    background-attachment: fixed;
+    height: 110vh;
+    color: white;
+    display: flex;
+    min-height: 600px;
+    padding: 60px;
+}
+
+.left-side-row1 {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height:50%;
+    text-align: center;
+    height: max-content;
+    margin: 20vh auto;
+    max-width: 75vh;
+    text-justify: center;
+    font-size: 20px;
+}
+
+.left-side-row1 h1 {
+    color: rgb(255, 255, 255);
+    margin-bottom: 25vh;
+    animation: fadeIn 5s forwards;
+    /* text-shadow: 0 0 0.5px #00000052, 0 0 1px #00000052, 0 0 2px #00000052, 0 0 4px #00000052; */
+
+}
+
+#description {
+    /* visibility: hidden; */
+    opacity: 0;
+    color: rgb(255, 255, 255);
+    animation: fadeIn 5s forwards;
+    animation-delay: 0.6s;
+}
+
+#Signup-button {
+    opacity: 0;
+    animation: fadeIn 5s forwards;
+    animation-delay: 1s;
+}
+
+@keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+
+/* button */
+
+  #Signup-button {
+    display: block;
+    width: 125px;
+    height: 40px;
+    line-height: 40px;
+    font-size: 18px;
+    /* font-family: sans-serif; */
+    text-decoration: none;
+    color: #ffffff;
+    /* border: 2px solid #3573ad; */
+    letter-spacing: 2px;
+    text-align: center;
+    position: relative;
+    transition: all .35s;
+    border-radius: 10px;
+    background-color: #864713f3;
+    /* box-shadow: 0 0 2px 2px #ddd8d8 */
+    /* animation */
+    opacity: 0;
+    animation: fadeIn 5s forwards;
+    animation-delay: 1s;
+  }
+  
+  #Signup-button span{
+    position: relative;
+    z-index: 2;
+  }
+  
+  /* #3573ad */
+  #Signup-button:after{
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    background: #3573ad;
+    transition: all .35s;
+    border-radius: 12px;
+  }
+  
+  #Signup-button:hover{
+    color: #ffffff;
+    border-radius: 10px;
+  }
+  
+  #Signup-button:hover:after{
+    width: 100%;
+    border-radius: 10px;
+  }
+  /* button */
+
+  .container-row2 {
+    display: flex;
+  }
