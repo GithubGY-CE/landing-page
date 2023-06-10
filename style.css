@@ -93,7 +93,8 @@ li {
 
 .left-side-row1 h1 {
     color: rgb(255, 255, 255);
-    margin-bottom: 23vh;
+    margin-bottom: 25vh;
+    margin-top: 0;
     animation: fadeIn 5s forwards;
     /* text-shadow: 0 0 0.5px #00000052, 0 0 1px #00000052, 0 0 2px #00000052, 0 0 4px #00000052; */
 
@@ -182,7 +183,7 @@ li {
     align-content: center;
     justify-content: center;
     flex: 1;
-    padding: 150px 5vh 200px 5vh;
+    padding: 200px 5vh 250px 5vh;
     /* background-color:  rgb(2, 29, 46); */
     background: linear-gradient(to bottom, rgb(9, 43, 65), rgb(0, 0, 0));
   }
@@ -202,10 +203,10 @@ li {
     object-fit: cover;
     margin-bottom: 30px;
     border-radius: 10px;
-    border: 1px solid #864713f3;
     margin: 30px;
     height: 200px;
     width: 200px;
+    box-shadow: 0 0 0.2px 1px #ddd8d8
   }
 
   #info-img:hover, #Learnmore:hover  {
