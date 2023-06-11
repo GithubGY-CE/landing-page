@@ -182,8 +182,13 @@ li {
     flex: 1;
     padding: 200px 5vh 250px 5vh;
     background: linear-gradient(to bottom, rgb(9, 43, 65), rgb(0, 0, 0));
-    /* max-width: 1000px; */
+  }
 
+  .arrow-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
   }
 
   .information-row {
@@ -194,7 +199,27 @@ li {
     flex-wrap: wrap;
     flex: 1;
     color: white;
+    max-width: 1576px;
   }
+
+  #arrow-button {
+    border: none;
+    padding: 0;
+    background: none;
+    cursor: pointer;
+  }
+  
+  #next, #previous {
+    filter: invert(100%);
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+    padding: 40px;
+    }
+
+    #next:hover, #previous:hover {
+        transform: scale(1.1);
+    }
 
   #info-img {
     overflow: hidden;
@@ -204,7 +229,7 @@ li {
     margin: 30px;
     height: 200px;
     width: 200px;
-    box-shadow: 0 0 0.2px 1px #ddd8d8
+    box-shadow: 0 0 0.2px 1px #864713f3;
   }
 
   #info-img:hover, #Learnmore:hover  {
@@ -230,7 +255,7 @@ li {
     justify-content: center;
   }
 
-  .Route {
+  /* .Route {
     display: flex;
     justify-self: flex-end;
     font-size: 18px;
@@ -240,7 +265,8 @@ li {
     margin-right: 25vh;
     margin-top: 50px;
     align-self: flex-end;
-  }
+    flex-direction: column;
+  } */
 
   h2 {
     font-size: 40px;
@@ -249,7 +275,6 @@ li {
   }
 
   .container-row3 {
-    background-color: black;
     display: flex;
     flex: 1;
     color: white;
@@ -274,10 +299,34 @@ li {
     display: flex;
     max-width: 1250px;
     text-align: justify;
+    text-shadow: 0 0 2px #000000, 0 0 4px #0a3d4e, 0 0 8px #0a3d4e, 0 0 12px #0a3d4e;
   }
 
   .quote-author {
     margin: 30px;
+  }
+
+  .container-row4 {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    flex: 1;
+    background: linear-gradient(to top, rgb(9, 43, 65), rgb(0, 0, 0));
+  }
+
+  .action-container {
+    background-color: #864713f3;
+    margin: 5vh 15vh;
+    border-radius: 12px;
+    padding: 30px;
+  }
+
+  .footer {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(9, 43, 65);
+    color: white;
   }
 
   
