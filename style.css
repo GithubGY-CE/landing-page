@@ -221,22 +221,30 @@ li {
     margin: 0 30px 20px 30px;
   }
 
-  #info-text, h2 {
+  #Info-title {
+    margin-bottom: 10px;
+    font-size: 20px;
+    font-weight: bold;
+  }
+
+  #info-text, h2, #Info-title {
     display: flex;
     align-items: center;
     text-align: center;
     justify-content: center;
   }
 
-  /* .Route {
+  .Route {
     display: flex;
     justify-self: flex-end;
-    margin-left: 5vh;
     font-size: 18px;
     color: white;
     text-decoration: underline;
     flex:1;
-  } */
+    margin-right: 25vh;
+    margin-top: 50px;
+    align-self: flex-end;
+  }
 
   h2 {
     font-size: 40px;
@@ -257,15 +265,13 @@ li {
     justify-content: center;
 
     background-image: url('./images/background.jpg');
-    background-size: cover; /* Adjust the background size as desired */
-    background-position: center; /* Adjust the background position as desired */
+    background-size: cover; 
+    background-position: center;
     background-attachment: fixed;
-    /* height: 110vh; */
     color: white;
     display: flex;
     min-height: 600px;
     padding: 50px 300px;
-    /* transform: scale(1.2) */
   }
 
   .quote {
