@@ -28,10 +28,6 @@ body, html {
     filter: hue-rotate(180deg);
 }
 
-/* #logo-text:hover {
-    
-} */
-
 ul {
     display: flex;
     flex-direction: row;
@@ -281,7 +277,7 @@ li {
   }
 
   .quote-author {
-    margin-top: 20px;
+    margin: 30px;
   }
 
   
