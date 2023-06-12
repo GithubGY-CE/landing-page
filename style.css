@@ -1,8 +1,7 @@
 body, html {
     margin: 0;
     min-height: 100vh;
-    /* min-width: 800px; */
-    /* min-width: 700px; */
+    min-width:1000px;
 }
 
 .header {
@@ -52,9 +51,9 @@ li {
 }
 
 .left-side-row1 p, #logo-text:hover{
+    /* Glow effect */
     text-shadow: 0 0 2px #0a3d4e, 0 0 4px #0a3d4e, 0 0 8px #0a3d4e, 0 0 12px #0a3d4e;
     color: white; 
-    /* Glow effect */
 }
 
 #logo-text {
@@ -63,8 +62,8 @@ li {
 
 .container-row1 {
     background-image: url('./images/neom-yx7TJle8LhM-unsplash.jpg');
-    background-size: cover; /* Adjust the background size as desired */
-    background-position: center; /* Adjust the background position as desired */
+    background-size: cover; 
+    background-position: center;
     background-attachment: fixed;
     height: 110vh;
     color: white;
@@ -93,12 +92,10 @@ li {
     margin-bottom: 25vh;
     margin-top: 0;
     animation: fadeIn 5s forwards;
-    /* text-shadow: 0 0 0.5px #00000052, 0 0 1px #00000052, 0 0 2px #00000052, 0 0 4px #00000052; */
 
 }
 
 #description {
-    /* visibility: hidden; */
     opacity: 0;
     color: rgb(255, 255, 255);
     animation: fadeIn 5s forwards;
@@ -121,25 +118,19 @@ li {
     }
   }
 
-/* button */
-
   #Signup-button, #row4-button, #row4-button2 {
     display: block;
     width: 125px;
     height: 40px;
     line-height: 40px;
-    /* font-family: sans-serif; */
     text-decoration: none;
     color: #ffffff;
-    /* border: 2px solid #3573ad; */
     letter-spacing: 2px;
     text-align: center;
     position: relative;
     transition: all .35s;
     border-radius: 10px;
     background-color: #864713f3;
-    /* box-shadow: 0 0 2px 2px #ddd8d8 */
-    /* animation */
   }
 
   #Signup-button span {
@@ -168,7 +159,6 @@ li {
     width: 100%;
     border-radius: 10px;
   }
-  /* button */
 
   .container-row2 {
     display: flex;
@@ -251,19 +241,6 @@ li {
     justify-content: center;
   }
 
-  /* .Route {
-    display: flex;
-    justify-self: flex-end;
-    font-size: 18px;
-    color: white;
-    text-decoration: underline;
-    flex:1;
-    margin-right: 25vh;
-    margin-top: 50px;
-    align-self: flex-end;
-    flex-direction: column;
-  } */
-
   h2 {
     font-size: 40px;
     color: white;
@@ -274,8 +251,6 @@ li {
     display: flex;
     flex: 1;
     color: white;
-    /* background: linear-gradient(to top, rgb(9, 43, 65), rgb(0, 0, 0)); */
-    /* padding: 0px 15vh 250px 15vh; */
     font-size: 30px;
     flex-direction: column;
     align-items: center;
@@ -362,8 +337,3 @@ li {
   #row4-button2 {
     background-color: #9c6b42f3;
   }
-
-/*   
-  background-color: white;
-  border-radius: 12px;
-  padding: 10px; */
