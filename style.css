@@ -217,7 +217,7 @@ li {
         transform: scale(1.1);
     }
 
-  #info-img {
+  .info-img {
     overflow: hidden;
     object-fit: cover;
     margin-bottom: 30px;
@@ -228,23 +228,23 @@ li {
     box-shadow: 0 0 0.2px 1px #864713f3;
   }
 
-  #info-img:hover, #Learnmore:hover  {
+  .info-img:hover, #Learnmore:hover  {
     transform: scale(1.1);
   }
 
-  #info-text {
+  .info-text {
     font-size: 18px;
     width: 200px;
     margin: 0 30px 20px 30px;
   }
 
-  #Info-title {
+  .Info-title {
     margin-bottom: 10px;
     font-size: 20px;
     font-weight: bold;
   }
 
-  #info-text, h2, #Info-title {
+  .info-text, h2, .Info-title {
     display: flex;
     align-items: center;
     text-align: center;
