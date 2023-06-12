@@ -109,6 +109,7 @@ li {
     opacity: 0;
     animation: fadeIn 5s forwards;
     animation-delay: 1s;
+    font-size: 18px;
 }
 
 @keyframes fadeIn {
@@ -122,12 +123,11 @@ li {
 
 /* button */
 
-  #Signup-button {
+  #Signup-button, #row4-button, #row4-button2 {
     display: block;
     width: 125px;
     height: 40px;
     line-height: 40px;
-    font-size: 18px;
     /* font-family: sans-serif; */
     text-decoration: none;
     color: #ffffff;
@@ -140,18 +140,15 @@ li {
     background-color: #864713f3;
     /* box-shadow: 0 0 2px 2px #ddd8d8 */
     /* animation */
-    opacity: 0;
-    animation: fadeIn 5s forwards;
-    animation-delay: 1s;
   }
-  
-  #Signup-button span{
+
+  #Signup-button span {
     position: relative;
     z-index: 2;
   }
   
   /* #3573ad */
-  #Signup-button:after{
+  #Signup-button:after {
     position: absolute;
     content: "";
     top: 0;
@@ -164,11 +161,10 @@ li {
   }
   
   #Signup-button:hover {
-    color: #fffffff3;
     border-radius: 10px;
   }
   
-  #Signup-button:hover:after{
+  #Signup-button:hover:after {
     width: 100%;
     border-radius: 10px;
   }
@@ -292,7 +288,7 @@ li {
     color: white;
     display: flex;
     min-height: 600px;
-    padding: 50px 300px;
+    padding: 0px 300px;
   }
 
   .quote {
@@ -309,17 +305,36 @@ li {
   .container-row4 {
     display: flex;
     flex-direction: column;
-    align-content: center;
+    align-items: center;
     justify-content: center;
     flex: 1;
     background: linear-gradient(to top, rgb(9, 43, 65), rgb(0, 0, 0));
+    font-size: 18px;
+    padding:  8vh 25vh;
   }
 
   .action-container {
     background-color: #864713f3;
-    margin: 5vh 15vh;
     border-radius: 12px;
-    padding: 30px;
+    padding: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: black;
+    width: 850px;
+    height: 80px;
+    align-items: center;
+    line-height: 30px;
+    margin-top: 15px;
+  }
+
+  .action-container button {
+    margin: 10px;
+  }
+
+  .buttons {
+    display: flex;
+    flex-direction: row;
   }
 
   .footer {
@@ -329,4 +344,26 @@ li {
     color: white;
   }
 
-  
+  #row4-button:hover, #row4-button2:hover {
+    background-color: white;
+    color: #864713f3;
+  }
+
+  #row4-button, #row4-button2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  #row4-button {
+    background-color: #9c6b4257;
+  }
+
+  #row4-button2 {
+    background-color: #9c6b42f3;
+  }
+
+/*   
+  background-color: white;
+  border-radius: 12px;
+  padding: 10px; */
